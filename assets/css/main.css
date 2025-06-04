@@ -37,18 +37,7 @@ section, summary, time, mark, audio, video {
     margin-right: auto;
 }
 /* Font Setup */
-body {
-  background: linear-gradient(-45deg, #1d1f27, #2b2f3a, #1a1c22, #282c34);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
+body { font-family: 'Open Sans', sans-serif; }
 
 
 h1, h2, h3, h4, .logo {
